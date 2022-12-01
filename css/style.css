@@ -1,0 +1,400 @@
+@font-face {
+    font-family: American Captain;
+    src: url(../font/American\ Captain.ttf);
+}
+
+.sec-bg-1 {
+    background-color: #0e1111;
+}
+
+.sec-f-p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.sec-bg-2 {
+    background-color: #0e1111;
+    border: 1px solid #fff;
+
+    border-width: 1px 0px;
+}
+
+a.nav-link.text-light.font-weight-normal {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.sec-header-img {
+    background-image: url(../images/muscle\ system\ header\ 1.png);
+    padding: 24% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-our-h {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.sec-our-prods {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 90px;
+    text-align: left !important;
+    color: #FFFFFF;
+    padding-left: 20px;
+    margin-top: -50px;
+
+}
+
+.sec-our-prods4 {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 90px;
+    text-align: left !important;
+    color: #FFFFFF;
+    padding-left: 85px;
+    margin-top: -50px;
+
+}
+
+.sec-img-prod2 {
+    z-index: 10;
+    position: relative;
+}
+
+.sec-our-prods2 {
+    z-index: 2;
+}
+
+.sec-bg-4 {
+    background-color: #3F2716;
+}
+
+.sec-boost1 {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 90px;
+    color: #FFFFFF;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.sec-but-c {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    color: #000000;
+    padding: 15px 40px;
+    background: #FFFFFF;
+
+}
+
+.sec-but-c:hover {
+    color: #3F2716;
+    text-decoration: none;
+}
+
+.sec-bg-5 {
+    background-color: #0e1111;
+}
+
+.sec-icon {
+    font-size: 15px;
+}
+
+.sec-footer-h {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.sec-footer-prod a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.sec-but-c2 {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 8px 20px 8px 20px;
+    background-color: #fff;
+    color: #000000;
+
+}
+
+.sec-but-c2:hover {
+    color: #3F2716;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec-img-prod2 img {
+        width: 100%;
+    }
+
+    .sec-our-prods,
+    .sec-our-prods4 {
+        font-size: 45px;
+        line-height: 40px;
+        text-align: left !important;
+        color: #FFFFFF;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        margin-top: 0px;
+
+    }
+
+    .sec-boost1 {
+        font-size: 45px;
+        line-height: 50px;
+
+    }
+
+    .sec-footer-h {
+        padding-top: 20px;
+    }
+
+    .sec-bg-5 {
+        text-align: center;
+    }
+
+    .sec-our-h {
+        padding-bottom: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+
+    .sec-our-prods,
+    .sec-our-prods4 {
+        text-align: center !important;
+        margin-top: 0px;
+        padding-left: 0px;
+
+
+    }
+}
+
+/* ---------------------muscale-whey------------------------ */
+.sec-whey-bg {
+    background-image: url(../images/Group\ 25.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-whey-heading {
+    font-family: 'Airstrike';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.sec-whey-hr {
+    background: #000;
+    border-top: 2px solid #000;
+    opacity: 1;
+    width: 60%;
+}
+
+.sec-whey-heading2 {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 70px;
+    color: #000000;
+    padding-bottom: 65px;
+}
+
+.sec-p-whey p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.sec-but-whey {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    color: #000000;
+    background-color: #fff;
+    padding: 10px 15px;
+}
+
+.sec-whey-bg2 {
+    background-color: #0e1111;
+}
+
+.sec-30-whey1 {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+}
+
+.sec-30-whey2 {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+
+
+}
+
+.sec-30-whey3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+}
+
+.sec-p-w {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+
+}
+
+.sec-pow-bg {
+    background-image: url(../images/7xm\ 1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.sec-pow-h {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 58px;
+    letter-spacing: 0.09em;
+    padding-top: 45px;
+    color: #000000;
+}
+
+.sec-pow-h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.09em;
+    color: #000000;
+}
+
+.sec-take-h {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+    letter-spacing: 0.09em;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.sec-30-take {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    padding-top: 20px;
+
+
+}
+
+.sec-pow-bg2 {
+    background-image: url(../images/7xm\ 7.png);
+    background-color: #0e1111;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.sec-str-shaw {
+    margin-top: 15%;
+    background-color: #fff;
+    padding: 50px 30px;
+}
+.sec-strb{
+    padding: 20px 30px 170px 30px;
+}
+.sec-str-h {
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 58px;
+    letter-spacing: 0.09em;
+    color: #000000;
+}
+
+.sec-str-shaw p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.09em;
+    color: #000000;
+}
