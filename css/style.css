@@ -15,7 +15,8 @@
     line-height: 20px;
     color: #fff;
 }
-.sec-logo-link{
+
+.sec-logo-link {
     text-align: center;
 }
 
@@ -217,6 +218,49 @@ a.nav-link.text-light.font-weight-normal {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.sec-whey-bg3 {
+    background-image: url(../images/mass-gainer-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-whey-bg4 {
+    background-image: url(../images/isolate-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-whey-bg5 {
+    background-image: url(../images/fuel-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-whey-bg6 {
+    background-image: url(../images/impala-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-whey-bg7 {
+    background-image: url(../images/creatine-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mob-sec-whey-bg {
+    display: none;
+}
+.mob-sec-whey-bg2 {
+    display: none;
+}
+.mob-sec-whey-bg3 {
+    display: none;
+}
+.mob-sec-whey-bg4 {
+    display: none;
+}
+.mob-sec-whey-bg5 {
+    display: none;
+}
+.mob-sec-whey-bg6 {
+    display: none;
+}
 
 .sec-whey-heading {
     font-family: 'Airstrike';
@@ -379,9 +423,11 @@ a.nav-link.text-light.font-weight-normal {
     background-color: #fff;
     padding: 50px 30px;
 }
-.sec-strb{
+
+.sec-strb {
     padding: 20px 30px 170px 30px;
 }
+
 .sec-str-h {
     font-family: 'American Captain';
     font-style: normal;
@@ -401,6 +447,7 @@ a.nav-link.text-light.font-weight-normal {
     letter-spacing: 0.09em;
     color: #000000;
 }
+
 @media only screen and (max-width: 600px) {
     .sec-str-h {
         font-family: 'American Captain';
@@ -411,8 +458,116 @@ a.nav-link.text-light.font-weight-normal {
         letter-spacing: 0.09em;
         color: #000000;
     }
+
     .sec-icon {
-       padding: 0 !important;
+        padding: 0 !important;
+    }
+
+}
+
+
+
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .mob-sec-whey-bg {
+        background-image: url(../images/muscle\ -whey-header-mob.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: block; 
+        padding-bottom: 82%;
+    }
+    .mob-sec-whey-bg2 {
+        background-image: url(../images/mass-gainer-header-mob.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: block; 
+        padding-bottom: 82%;
+    }
+    .mob-sec-whey-bg3 {
+        background-image: url(../images/isolate-header-mob.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: block; 
+        padding-bottom: 82%;
+    }
+    .mob-sec-whey-bg4 {
+        background-image: url(../images/fuel-header-mob.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: block; 
+        padding-bottom: 82%;
+    }
+    .mob-sec-whey-bg5 {
+        background-image: url(../images/impala-header-mob.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: block; 
+        padding-bottom: 82%;
+    }
+    .mob-sec-whey-bg6 {
+        background-image: url(../images/creatine-header-mob.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: block; 
+        padding-bottom: 82%;
+    }
+    .sec-whey-bg {
+        display:none;
+    }
+    .sec-whey-bg3 {
+        display:none;
+    }
+    .sec-whey-bg4 {
+        display:none;
+    }
+    .sec-whey-bg5 {
+        display:none;
+    }
+
+    .sec-whey-bg6 {
+        display:none;
+    }
+    .sec-whey-bg7 {
+        display:none;
+    }
+    .mob-sec-whey-heading {
+        font-family: 'Airstrike';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 12px;
+        color: #FFFFFF;
+    }
+    .mob-sec-whey-heading2 {
+        font-family: 'American Captain';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 8px;
+        color: #000000;
+        padding-bottom: 19px;
     }
     
+    .mob-sec-p-whey p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 10px;
+        color: #000000;
+    }
+    
+    .mob-sec-but-whey {
+        font-family: 'American Captain';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 26px;
+        letter-spacing: 0.09em;
+        color: #000000;
+        background-color: #fff;
+        padding: 9px 15px;
+    }
 }
