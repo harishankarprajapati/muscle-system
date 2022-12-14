@@ -9,12 +9,12 @@
 }
 @font-face {
     font-family: 'AmericanCaptain';
-    src: url('fonts/AmericanCaptain.eot');
-    src: url('fonts/AmericanCaptain.eot') format('embedded-opentype'),
-         url('fonts/AmericanCaptain.woff2') format('woff2'),
-         url('fonts/AmericanCaptain.woff') format('woff'),
-         url('fonts/AmericanCaptain.ttf') format('truetype'),
-         url('fonts/AmericanCaptain.svg#AmericanCaptain') format('svg');
+    src: url('../fonts/AmericanCaptain.eot');
+    src: url('../fonts/AmericanCaptain.eot') format('embedded-opentype'),
+         url('../fonts/AmericanCaptain.woff2') format('woff2'),
+         url('../fonts/AmericanCaptain.woff') format('woff'),
+         url('../fonts/AmericanCaptain.ttf') format('truetype'),
+         url('../fonts/AmericanCaptain.svg#AmericanCaptain') format('svg');
 }
 
 .modal-body {
@@ -46,7 +46,7 @@
 }
 
 a.nav-link.text-light.font-weight-normal {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -61,7 +61,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-our-h {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
@@ -71,7 +71,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-our-prods {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 90px;
@@ -84,7 +84,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-our-prods4 {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 90px;
@@ -110,7 +110,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-boost1 {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 90px;
@@ -121,7 +121,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-but-c {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
@@ -146,7 +146,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-footer-h {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -165,7 +165,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-but-c2 {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -297,7 +297,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-whey-heading2 {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 70px;
@@ -317,7 +317,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-but-whey {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 27px;
@@ -333,7 +333,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-30-whey1 {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
@@ -343,7 +343,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-30-whey2 {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
@@ -383,7 +383,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-pow-h {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 58px;
@@ -404,7 +404,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-take-h {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 42px;
@@ -417,7 +417,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-30-take {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -447,7 +447,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-str-h {
-    font-family: 'American Captain';
+    font-family: 'AmericanCaptain';
     font-style: normal;
     font-weight: 400;
     font-size: 58px;
@@ -468,7 +468,7 @@ a.nav-link.text-light.font-weight-normal {
 
 @media only screen and (max-width: 600px) {
     .sec-str-h {
-        font-family: 'American Captain';
+        font-family: 'AmericanCaptain';
         font-style: normal;
         font-weight: 400;
         font-size: 45px;
@@ -559,7 +559,7 @@ a.nav-link.text-light.font-weight-normal {
         color: #FFFFFF;
     }
     .mob-sec-whey-heading2 {
-        font-family: 'American Captain';
+        font-family: 'AmericanCaptain';
         font-style: normal;
         font-weight: 400;
         font-size: 26px;
@@ -578,7 +578,7 @@ a.nav-link.text-light.font-weight-normal {
     }
     
     .mob-sec-but-whey {
-        font-family: 'American Captain';
+        font-family: 'AmericanCaptain';
         font-style: normal;
         font-weight: 400;
         font-size: 13px;
