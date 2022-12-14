@@ -552,7 +552,10 @@ a.nav-link.text-light.font-weight-normal {
         background-size: cover;
         padding-bottom: 82%;
     }
+    .sec-but{
+        padding: 10px !important;
 
+    }
     .sec-whey-heading {
         font-family: 'Airstrike';
         font-style: normal;
