@@ -552,6 +552,10 @@ a.nav-link.text-light.font-weight-normal {
         background-size: cover;
         padding-bottom: 82%;
     }
+    .sec-c{
+        width: 50%;
+        padding-top: 20px;
+    }
     .sec-but{
         padding: 10px !important;
 
