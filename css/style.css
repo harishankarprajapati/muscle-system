@@ -2,19 +2,27 @@
     font-family: 'airstrike';
     src: url('../fonts/airstrike.eot');
     src: url('../fonts/airstrike.eot') format('embedded-opentype'),
-         url('../fonts/airstrike.woff2') format('woff2'),
-         url('../fonts/airstrike.woff') format('woff'),
-         url('../fonts/airstrike.ttf') format('truetype'),
-         url('../fonts/airstrike.svg#airstrike') format('svg');
+        url('../fonts/airstrike.woff2') format('woff2'),
+        url('../fonts/airstrike.woff') format('woff'),
+        url('../fonts/airstrike.ttf') format('truetype'),
+        url('../fonts/airstrike.svg#airstrike') format('svg');
 }
+
 @font-face {
     font-family: 'AmericanCaptain';
     src: url('../fonts/AmericanCaptain.eot');
     src: url('../fonts/AmericanCaptain.eot') format('embedded-opentype'),
-         url('../fonts/AmericanCaptain.woff2') format('woff2'),
-         url('../fonts/AmericanCaptain.woff') format('woff'),
-         url('../fonts/AmericanCaptain.ttf') format('truetype'),
-         url('../fonts/AmericanCaptain.svg#AmericanCaptain') format('svg');
+        url('../fonts/AmericanCaptain.woff2') format('woff2'),
+        url('../fonts/AmericanCaptain.woff') format('woff'),
+        url('../fonts/AmericanCaptain.ttf') format('truetype'),
+        url('../fonts/AmericanCaptain.svg#AmericanCaptain') format('svg');
+}
+.sec-serv-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
 }
 
 .modal-body {
@@ -236,32 +244,38 @@ a.nav-link.text-light.font-weight-normal {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .sec-whey-bg3 {
     background-image: url(../images/mm.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .sec-whey-bg4 {
     background-image: url(../images/MI.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .sec-whey-bg5 {
     background-image: url(../images/mf.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .sec-whey-bg6 {
     background-image: url(../images/imp.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .sec-whey-bg7 {
     background-image: url(../images/cre.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.mob-sec-whey-bg {
+
+/* .mob-sec-whey-bg {
     display: none;
 }
 .mob-sec-whey-bg2 {
@@ -278,7 +292,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 .mob-sec-whey-bg6 {
     display: none;
-}
+} */
 
 .sec-whey-heading {
     font-family: 'Airstrike';
@@ -306,13 +320,20 @@ a.nav-link.text-light.font-weight-normal {
     padding-bottom: 65px;
 }
 
+.sec-p-whey {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(93deg, rgba(255, 255, 255, 1) 0%, rgba(250, 250, 250, 0.6278886554621849) 55%, rgba(0, 212, 255, 0) 93%);
+    padding: 20px 20px;
+}
+
 .sec-p-whey p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #000000;
+    color: #000;
+
 
 }
 
@@ -489,68 +510,50 @@ a.nav-link.text-light.font-weight-normal {
 
 /* mobile */
 @media only screen and (max-width: 600px) {
-    .mob-sec-whey-bg {
+    .sec-whey-bg {
         background-image: url(../images/muscle\ -whey-header-mob.png);
         background-repeat: no-repeat;
-        background-size:cover;
-        display: block; 
-        padding-bottom: 82%;
+        background-size: cover;
+        padding-bottom: 82%;    
     }
-    .mob-sec-whey-bg2 {
+
+    .sec-whey-bg3 {
         background-image: url(../images/mass-gainer-header-mob.png);
         background-repeat: no-repeat;
-        background-size:cover;
-        display: block; 
+        background-size: cover;
         padding-bottom: 82%;
     }
-    .mob-sec-whey-bg3 {
+
+    .sec-whey-bg4 {
         background-image: url(../images/isolate-header-mob.png);
         background-repeat: no-repeat;
-        background-size:cover;
-        display: block; 
+        background-size: cover;
         padding-bottom: 82%;
     }
-    .mob-sec-whey-bg4 {
+
+    .sec-whey-bg5 {
         background-image: url(../images/fuel-header-mob.png);
         background-repeat: no-repeat;
-        background-size:cover;
-        display: block; 
+        background-size: cover;
         padding-bottom: 82%;
-    }
-    .mob-sec-whey-bg5 {
-        background-image: url(../images/impala-header-mob.png);
-        background-repeat: no-repeat;
-        background-size:cover;
-        display: block; 
-        padding-bottom: 82%;
-    }
-    .mob-sec-whey-bg6 {
-        background-image: url(../images/creatine-header-mob.png);
-        background-repeat: no-repeat;
-        background-size:cover;
-        display: block; 
-        padding-bottom: 82%;
-    }
-    .sec-whey-bg {
-        display:none;
-    }
-    .sec-whey-bg3 {
-        display:none;
-    }
-    .sec-whey-bg4 {
-        display:none;
-    }
-    .sec-whey-bg5 {
-        display:none;
     }
 
     .sec-whey-bg6 {
-        display:none;
+        background-image: url(../images/impala-header-mob.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 82%;
+
     }
+
     .sec-whey-bg7 {
-        display:none;
+        background-image: url(../images/creatine-header-mob.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 82%;
     }
-    .mob-sec-whey-heading {
+
+    .sec-whey-heading {
         font-family: 'Airstrike';
         font-style: normal;
         font-weight: 400;
@@ -558,7 +561,8 @@ a.nav-link.text-light.font-weight-normal {
         line-height: 12px;
         color: #FFFFFF;
     }
-    .mob-sec-whey-heading2 {
+
+    .sec-whey-heading2 {
         font-family: 'AmericanCaptain';
         font-style: normal;
         font-weight: 400;
@@ -567,17 +571,18 @@ a.nav-link.text-light.font-weight-normal {
         color: #000000;
         padding-bottom: 19px;
     }
-    
-    .mob-sec-p-whey p {
+
+    .sec-p-whey p {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 11px;
         line-height: 10px;
         color: #000000;
+
     }
-    
-    .mob-sec-but-whey {
+
+    .sec-but-whey {
         font-family: 'AmericanCaptain';
         font-style: normal;
         font-weight: 400;
