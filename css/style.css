@@ -7,6 +7,15 @@
          url('../fonts/airstrike.ttf') format('truetype'),
          url('../fonts/airstrike.svg#airstrike') format('svg');
 }
+@font-face {
+    font-family: 'AmericanCaptain';
+    src: url('fonts/AmericanCaptain.eot');
+    src: url('fonts/AmericanCaptain.eot') format('embedded-opentype'),
+         url('fonts/AmericanCaptain.woff2') format('woff2'),
+         url('fonts/AmericanCaptain.woff') format('woff'),
+         url('fonts/AmericanCaptain.ttf') format('truetype'),
+         url('fonts/AmericanCaptain.svg#AmericanCaptain') format('svg');
+}
 
 .modal-body {
     overflow-y: scroll;
