@@ -514,7 +514,7 @@ a.nav-link.text-light.font-weight-normal {
 
 
 /* mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .sec-whey-bg {
         background-image: url(../images/muscle\ -whey-header-mob.png);
         background-repeat: no-repeat;
@@ -556,6 +556,15 @@ a.nav-link.text-light.font-weight-normal {
         background-repeat: no-repeat;
         background-size: cover;
         padding-bottom: 82%;
+    }
+    .sec-whey-heading2 {
+        font-family: 'AmericanCaptain';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 58px;
+        line-height: 70px;
+        color: #000000;
+        padding-bottom: 65px;
     }
     .sec-c{
         width: 50%;
