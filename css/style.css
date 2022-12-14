@@ -1,6 +1,15 @@
 @font-face {
-    font-family: American Captain;
-    src: url(../font/American\ Captain.ttf);
+    font-family: 'airstrike';
+    src: url('../fonts/airstrike.eot');
+    src: url('../fonts/airstrike.eot') format('embedded-opentype'),
+         url('../fonts/airstrike.woff2') format('woff2'),
+         url('../fonts/airstrike.woff') format('woff'),
+         url('../fonts/airstrike.ttf') format('truetype'),
+         url('../fonts/airstrike.svg#airstrike') format('svg');
+}
+
+.modal-body {
+    overflow-y: scroll;
 }
 
 .sec-bg-1 {
@@ -36,7 +45,7 @@ a.nav-link.text-light.font-weight-normal {
 }
 
 .sec-header-img {
-    background-image: url(../images/muscle\ system\ header\ 1.png);
+    background-image: url(../images/muscle\ system\ header\ 1.jpg);
     padding: 24% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,32 +223,32 @@ a.nav-link.text-light.font-weight-normal {
 
 /* ---------------------muscale-whey------------------------ */
 .sec-whey-bg {
-    background-image: url(../images/Group\ 25.png);
+    background-image: url(../images/ms.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .sec-whey-bg3 {
-    background-image: url(../images/mass-gainer-header.png);
+    background-image: url(../images/mm.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .sec-whey-bg4 {
-    background-image: url(../images/isolate-header.png);
+    background-image: url(../images/MI.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .sec-whey-bg5 {
-    background-image: url(../images/fuel-header.png);
+    background-image: url(../images/mf.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .sec-whey-bg6 {
-    background-image: url(../images/impala-header.png);
+    background-image: url(../images/imp.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .sec-whey-bg7 {
-    background-image: url(../images/creatine-header.png);
+    background-image: url(../images/cre.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
