@@ -558,6 +558,7 @@ a.nav-link.text-light.font-weight-normal {
     }
     .sec-but{
         padding: 10px !important;
+        margin-bottom: 18px;
 
     }
     .sec-whey-heading {
@@ -568,13 +569,31 @@ a.nav-link.text-light.font-weight-normal {
         line-height: 12px;
         color: #FFFFFF;
     }
+    .sec-30-whey1 {
+        font-family: 'AmericanCaptain';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 38px;
+        letter-spacing: 0.09em;
+        color: #FFFFFF;
+    }
+    .sec-30-whey2 {
+        font-family: 'AmericanCaptain';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 35px;
+        letter-spacing: 0.09em;
+        color: #FFFFFF;
+    }S
 
     .sec-whey-heading2 {
         font-family: 'AmericanCaptain';
         font-style: normal;
         font-weight: 400;
         font-size: 26px;
-        line-height: 8px;
+        line-height: 25px;
         color: #000000;
         padding-bottom: 19px;
     }
