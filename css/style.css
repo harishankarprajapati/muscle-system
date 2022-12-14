@@ -492,10 +492,15 @@ a.nav-link.text-light.font-weight-normal {
         font-family: 'AmericanCaptain';
         font-style: normal;
         font-weight: 400;
-        font-size: 45px;
+        font-size: 20px;
         line-height: 58px;
         letter-spacing: 0.09em;
         color: #000000;
+    }
+    .sec-str-shaw p {
+        font-size: 12px;
+        line-height: 19px;
+        text-align: center;
     }
 
     .sec-icon {
@@ -560,6 +565,26 @@ a.nav-link.text-light.font-weight-normal {
         padding: 10px !important;
         margin-bottom: 18px;
 
+    }
+    
+.sec-pow-h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.09em;
+    color: #000000;
+}
+    .sec-pow-h {
+        font-family: 'AmericanCaptain';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 49px;
+        letter-spacing: 0.09em;
+        padding-top: 45px;
+        color: #000000;
     }
     .sec-whey-heading {
         font-family: 'Airstrike';
