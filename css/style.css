@@ -654,3 +654,12 @@ a.nav-link.text-light.font-weight-normal {
         padding: 9px 15px;
     }
 }
+/* ----------contact---------- */
+.sec-cont-bg{
+    background-image: url(../images/1633729.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-div-center{
+    width: 70%;
+}
